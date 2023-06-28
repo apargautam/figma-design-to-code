@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-text{
+    padding: 2vh 5vw;
+}
+
+.people-img{
+    display: inline-block; 
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.arrowImg{
+    width: 19.86px;
+    height: 19.47px
+}
+
+.apps-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    color: grey;
+    padding: 2vh 0; 
+    font-size: 20px;
+}
+
+.apps{
+    margin: 8vh auto;
+}
+
+.apps-row{
+    padding: 1vh 0;
+    justify-content: space-between;
+}
+
+.app-badge{
+    position:absolute;
+    top:70%;
+    left:10%;
+    width: 40%;
+}
+
+.apps-card{
+    margin: 0 1vw
+}
+
+.community{
+    padding: 5vh 0;
+    background: #f4f6fb;
+}
+
+.community-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+.community-content{
+    color: grey;
+    padding-top: 2vh;
+}
+
+footer{
+    padding: 10vh 0;
+}
+
+.footer-title{
+    font-weight: bold;
+}
+
+.footer-list{
+    color: grey;
+    list-style: none;
+    padding:0;
+}
+
+.footer-link, .footer-link:visited, .footer-link:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-list li{
+    margin: 2vh 0;
+}
+
+.logo-content{
+    padding: 20px;
+    color:grey;
+}
+
+.socials-icon{
+    padding: 0 0.5vw;
+}
+
+.copyright{
+    padding-top: 3vh;;
+    color:grey;   
+}
