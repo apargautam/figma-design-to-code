@@ -5,6 +5,14 @@
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.banner{
+    padding: 14vh 0 12vh 0vh;
+}
+
 .banner-text{
     padding: 2vh 5vw;
 }
@@ -49,6 +57,16 @@
 
 .apps-card{
     margin: 0 1vw
+}
+
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-text{
+    min-height: 10vh;
 }
 
 .community{
