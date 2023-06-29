@@ -8,7 +8,9 @@
     <title>Assignment</title>
 </head>
 <body class="mx-auto">
-       <nav class="navbar navbar-expand-lg bg-white">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./images/Logo.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,12 +72,13 @@
             <button class="btn btn-primary" type="submit">Get Started</button>
         </div>
     </nav>
+
     <main>
         <!-- Banner section -->
         <section class="banner">
             <div class="container  py-10">
                 <div class="row d-flex align-items-center justify-content-center">
-                    <div class="col-lg-6 col-sm-12"><img class="people-img" src="./images/people.png"></div>
+                    <div class="col-sm-12 col-lg-6"><img class="people-img" src="./images/people.png"></div>
                     <div class="banner-text container col-sm-12 col-lg-6">
                         <h1 class="display-4 fw-bold">A team that creates amazing products</h1>
                         <div class="banner-content">
@@ -89,11 +92,12 @@
 
         <!-- Apps Section -->
         <section class="apps">
-            <div class="container">
 
-                <!-- Row 1 -->
-                <div class="apps-row grid">
-                        <div class="apps-card card col-md col-sm-12 ms-md-0" style="width: 18rem;">
+            <!-- Row 1 -->
+            <div class="container">
+                <div class="apps-row row">
+                    <div class="col-xs-12 col-md-4 ms-md-0">
+                        <div class="card">
                             <div class="card-image-container" style="position:relative">
                                 <img src="./images/slack/photo.png" class="card-img-top" alt="...">
                                 <img class="app-badge" src="./images/slack/badge.png">
@@ -104,72 +108,86 @@
                                     <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
                             </div>
                         </div>
+                    </div>
+                   
+                    <div class="col-xs-12 col-md-4 ms-md-0">
+                        <div class="card">
+                            <div class="card-image-container" style="position:relative">
+                                <img src="./images/spotify/photo.png" class="card-img-top" alt="...">
+                                <img class="app-badge" src="./images/spotify/badge.png">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Spotify</h5>
+                                <p class="card-text">Our app allows everyone to listen to music of different genres. You can try it on your smartphone or PC.</p>
+                                <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
                     
-                    <div class="apps-card card col-md col-sm-12" style="width: 18rem;">
-                        <div class="card-image-container" style="position:relative">
-                            <img src="./images/spotify/photo.png" class="card-img-top" alt="...">
-                            <img class="app-badge" src="./images/spotify/badge.png">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Spotify</h5>
-                            <p class="card-text">Our app allows everyone to listen to music of different genres. You can try it on your smartphone or PC.</p>
-                            <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
-                        </div>
-                    </div>
-
-                    <div class="apps-card card col-md col-sm-12 mt-md-0" style="width: 18rem;">
-                        <div class="card-image-container" style="position:relative">
-                            <img src="./images/buzzfeed/photo.png" class="card-img-top" alt="...">
-                            <img class="app-badge" src="./images/buzzfeed/badge.png">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Buzzfeed</h5>
-                            <p class="card-text">News must be truthful and interesting so that the person who reads it understands what it is about.</p>
-                            <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                    <div class="col-xs-12 col-md-4 mt-md-0">
+                        <div class="card">
+                            <div class="card-image-container" style="position:relative">
+                                <img src="./images/buzzfeed/photo.png" class="card-img-top" alt="...">
+                                <img class="app-badge" src="./images/buzzfeed/badge.png">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Buzzfeed</h5>
+                                <p class="card-text">News must be truthful and interesting so that the person who reads it understands what it is about.</p>
+                                <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
-
-                <!-- Row 2 -->
-                <div class="apps-row">
-                    <div class="apps-card card col-md col-sm-12 ms-md-0" style="width: 18rem;">
-                        <div class="card-image-container" style="position:relative">
-                            <img src="./images/target/photo.png" class="card-img-top" alt="Target Photo">
-                            <img class="app-badge" src="./images/target/badge.png">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Target</h5>
-                            <p class="card-text">The goal of our company is to make various products and products available.</p>
-                            <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
-                        </div>
-                    </div>
-
-                    <div class="apps-card card col-md col-sm-12" style="width: 18rem;">
-                        <div class="card-image-container" style="position:relative">
-                            <img src="./images/mailchimp/photo.png" class="card-img-top" alt="Mailchimp Photo">
-                            <img class="app-badge" src="./images/mailchimp/badge.png">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Mailchimp</h5>
-                            <p class="card-text">Many businesses are working harder than ever to stay connected with customers.</p>
-                            <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
-                        </div>
-                    </div>
-
-                    <div class="apps-card card col-md col-sm-12 mt-md-0" style="width: 18rem;">
-                        <div class="card-image-container" style="position:relative">                        
-                            <img src="./images/dropbox/photo.png" class="card-img-top" alt="Dropbox Image">
-                            <img class="app-badge" src="./images/dropbox/badge.png">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Dropbox</h5>
-                            <p class="card-text">Work with files, use tools, and interact with colleagues directly in Dropbox. Everything you need is put together.</p>
-                            <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- Row 2 -->
+            <div class="container">                
+                <div class="apps-row row">
+                    <div class="col-xs-12 col-md-4 ms-md-0">
+                        <div class="card">
+                            <div class="card-image-container" style="position:relative">
+                                <img src="./images/target/photo.png" class="card-img-top" alt="Target Photo">
+                                <img class="app-badge" src="./images/target/badge.png">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Target</h5>
+                                <p class="card-text">The goal of our company is to make various products and products available.</p>
+                                <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image-container" style="position:relative">
+                                <img src="./images/mailchimp/photo.png" class="card-img-top" alt="Mailchimp Photo">
+                                <img class="app-badge" src="./images/mailchimp/badge.png">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Mailchimp</h5>
+                                <p class="card-text">Many businesses are working harder than ever to stay connected with customers.</p>
+                                <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4 mt-md-0">
+                        <div class="card">
+                            <div class="card-image-container" style="position:relative">                        
+                                <img src="./images/dropbox/photo.png" class="card-img-top" alt="Dropbox Image">
+                                <img class="app-badge" src="./images/dropbox/badge.png">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Dropbox</h5>
+                                <p class="card-text">Work with files, use tools, and interact with colleagues directly in Dropbox. Everything you need is put together.</p>
+                                <div class="read-more"><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Read Story <img src="./images/arrow.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- Communities Section -->
@@ -201,6 +219,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>

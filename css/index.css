@@ -19,7 +19,7 @@ a{
 
 .people-img{
     display: inline-block; 
-    width: 35vw;
+    width: 90%;
     border-radius: 5px;
 }
 
@@ -53,10 +53,6 @@ a{
     top:70%;
     left:10%;
     width: 40%;
-}
-
-.apps-card{
-    margin: 0 1vw
 }
 
 .card-body{
